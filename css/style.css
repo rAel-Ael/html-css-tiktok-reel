@@ -7,6 +7,27 @@
 body {
 	margin: 0 auto;
 	font-family: 'TikTok Sans', sans-serif;
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	/* lo fatto per me stavo diventando cieca con tutto bianco */
+}
+
+.reel-header {
+	color: #fff;
+	align-items: flex-start;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.icon {
+	
+}
+
+.page {
+	display: flex;
+	flex-direction: row;
 }
 
 video {
@@ -18,7 +39,8 @@ video {
 }
 
 .reel-page {
-	height: 100vh; /* ti incuriosisce? */
+	height: 100vh;
+	/* ti incuriosisce? */
 	max-width: 512px;
 	min-width: 400px;
 	position: relative;
